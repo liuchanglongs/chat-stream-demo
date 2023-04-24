@@ -1,0 +1,95 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/marked",
+			"style": {
+				"navigationBarTitleText": "markedown"
+			}
+		},{
+			"path": "pages/add-group",
+			"style": {
+				"navigationBarTitleText": "Add group"
+			}
+		},{
+			"path": "pages/social-info",
+			"style": {
+				"navigationBarTitleText": "Social Info",
+				"onReachBottomDistance": 80
+			}
+		},{
+			"path": "pages/sys-info",
+			"style": {
+				"navigationBarTitleText": "System information"
+			}
+		},{
+			"path": "pages/members",
+			"style": {
+				"navigationBarTitleText": "Member"
+			}
+		},{
+			"path": "pages/member-chat",
+			"style": {
+				"navigationBarTitleText": "Member Chat"
+			}
+		}
+		,{
+			"path": "pages/group-chat",
+			"style": {
+				"navigationBarTitleText": "Group Chat"
+			}
+		},{
+			"path": "pages/storage",
+			"style": {
+				"navigationBarTitleText": "Storage",
+				"onReachBottomDistance": 40
+			}
+		},{
+			"path": "pages/chat-set",
+			"style": {
+				"navigationBarTitleText": "Chat settings"
+			}
+		},{
+			"path": "pages/chat-group-set",
+			"style": {
+				"navigationBarTitleText": "Chat settings"
+			}
+		},{
+			"path": "pages/set-group-avatar",
+			"style": {
+				"navigationBarTitleText": "Chat settings"
+			}
+		},{
+			"path": "pages/find-chat-log",
+			"style": {
+				"navigationBarTitleText": "Find chat"
+			}
+		},{
+			"path": "pages/group-members",
+			"style": {
+				"navigationBarTitleText": "Group members"
+			}
+		},{
+			"path": "pages/invite",
+			"style": {
+				"navigationBarTitleText": "Add"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {}
+}

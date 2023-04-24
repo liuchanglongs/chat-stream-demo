@@ -1,0 +1,461 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3502609 */
+  src: url('@/uview-ui/iconfont.woff2?t=1660113281661') format('woff2'),
+       url('@/uview-ui/iconfont.woff?t=1660113281661') format('woff'),
+       url('@/uview-ui/iconfont.ttf?t=1660113281661') format('truetype');
+}
+
+.u-iconfont {
+	position: relative;
+	display: flex;
+	font: normal normal normal 14px/1 "iconfont";
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.uicon-Loading::before {
+  content: "\e600";
+}
+
+.uicon-Correct::before {
+  content: "\e73d";
+}
+
+.uicon-Download::before {
+  content: "\e73c";
+}
+
+.uicon-Ok::before {
+  content: "\e73b";
+}
+
+.uicon-Follow_ok::before {
+  content: "\e73a";
+}
+
+.uicon-Note::before {
+  content: "\e739";
+}
+
+.uicon-Logout::before {
+  content: "\e738";
+}
+
+.uicon-Eye1::before {
+  content: "\e737";
+}
+
+.uicon-Exclamation::before {
+  content: "\e70c";
+}
+
+.uicon-Research_add::before {
+  content: "\e70d";
+}
+
+.uicon-Close_fill::before {
+  content: "\e70e";
+}
+
+.uicon-Edit_line::before {
+  content: "\e70f";
+}
+
+.uicon-Exclamation_line::before {
+  content: "\e710";
+}
+
+.uicon-File_info::before {
+  content: "\e711";
+}
+
+.uicon-Files_double::before {
+  content: "\e712";
+}
+
+.uicon-Drafts::before {
+  content: "\e713";
+}
+
+.uicon-Label::before {
+  content: "\e714";
+}
+
+.uicon-Question::before {
+  content: "\e715";
+}
+
+.uicon-User_add::before {
+  content: "\e716";
+}
+
+.uicon-Earth::before {
+  content: "\e717";
+}
+
+.uicon-Share_right::before {
+  content: "\e718";
+}
+
+.uicon-Tally::before {
+  content: "\e719";
+}
+
+.uicon-Info_more::before {
+  content: "\e71a";
+}
+
+.uicon-Edit_more::before {
+  content: "\e71b";
+}
+
+.uicon-Close_line::before {
+  content: "\e71c";
+}
+
+.uicon-User_close::before {
+  content: "\e71d";
+}
+
+.uicon-User_add1::before {
+  content: "\e71e";
+}
+
+.uicon-Date::before {
+  content: "\e71f";
+}
+
+.uicon-Delete_fill::before {
+  content: "\e720";
+}
+
+.uicon-Plus_fill::before {
+  content: "\e721";
+}
+
+.uicon-Edit_info::before {
+  content: "\e722";
+}
+
+.uicon-Message_add::before {
+  content: "\e723";
+}
+
+.uicon-Users::before {
+  content: "\e724";
+}
+
+.uicon-Follow_add::before {
+  content: "\e725";
+}
+
+.uicon-User_edit::before {
+  content: "\e726";
+}
+
+.uicon-Customer::before {
+  content: "\e727";
+}
+
+.uicon-Likes::before {
+  content: "\e728";
+}
+
+.uicon-Comment::before {
+  content: "\e729";
+}
+
+.uicon-Mine::before {
+  content: "\e72a";
+}
+
+.uicon-System::before {
+  content: "\e72b";
+}
+
+.uicon-Cloud::before {
+  content: "\e72c";
+}
+
+.uicon-Edit_fine::before {
+  content: "\e72d";
+}
+
+.uicon-Link::before {
+  content: "\e72e";
+}
+
+.uicon-Dollar::before {
+  content: "\e72f";
+}
+
+.uicon-Time::before {
+  content: "\e730";
+}
+
+.uicon-Message_line::before {
+  content: "\e731";
+}
+
+.uicon-Edit_waves::before {
+  content: "\e732";
+}
+
+.uicon-File_double::before {
+  content: "\e733";
+}
+
+.uicon-File_add::before {
+  content: "\e734";
+}
+
+.uicon-Photo::before {
+  content: "\e735";
+}
+
+.uicon-Folder::before {
+  content: "\e736";
+}
+
+.uicon-Eye::before {
+  content: "\e6cf";
+}
+
+.uicon-Eye_ac::before {
+  content: "\e6cc";
+}
+
+.uicon-Update::before {
+  content: "\e6af";
+}
+
+.uicon-Community_add::before {
+  content: "\e6fb";
+}
+
+.uicon-Forum::before {
+  content: "\e6fc";
+}
+
+.uicon-Admin_setting::before {
+  content: "\e6fd";
+}
+
+.uicon-More_line::before {
+  content: "\e6fe";
+}
+
+.uicon-Plus_min::before {
+  content: "\e6ff";
+}
+
+.uicon-Delete::before {
+  content: "\e700";
+}
+
+.uicon-Star_ac::before {
+  content: "\e701";
+}
+
+.uicon-Edit::before {
+  content: "\e702";
+}
+
+.uicon-Star::before {
+  content: "\e703";
+}
+
+.uicon-Down::before {
+  content: "\e704";
+}
+
+.uicon-Right::before {
+  content: "\e705";
+}
+
+.uicon-Up::before {
+  content: "\e706";
+}
+
+.uicon-Info_line::before {
+  content: "\e707";
+}
+
+.uicon-Image::before {
+  content: "\e708";
+}
+
+.uicon-Small::before {
+  content: "\e709";
+}
+
+.uicon-a-::before {
+  content: "\e70a";
+}
+
+.uicon-Alt::before {
+  content: "\e70b";
+}
+
+.uicon-FAQ::before {
+  content: "\e6f7";
+}
+
+.uicon-Privacy_policy::before {
+  content: "\e6f8";
+}
+
+.uicon-Sign_up::before {
+  content: "\e6f9";
+}
+
+.uicon-Terms::before {
+  content: "\e6fa";
+}
+
+.uicon-Close::before {
+  content: "\ecfb";
+}
+
+.uicon-Complaint::before {
+  content: "\e6e5";
+}
+
+.uicon-Search::before {
+  content: "\e6e6";
+}
+
+.uicon-Menu::before {
+  content: "\e6e7";
+}
+
+.uicon-File::before {
+  content: "\e6e8";
+}
+
+.uicon-Send::before {
+  content: "\e6e9";
+}
+
+.uicon-Files::before {
+  content: "\e6ea";
+}
+
+.uicon-Account::before {
+  content: "\e6eb";
+}
+
+.uicon-Category::before {
+  content: "\e6ec";
+}
+
+.uicon-Budge::before {
+  content: "\e6ed";
+}
+
+.uicon-Tags::before {
+  content: "\e6ee";
+}
+
+.uicon-Next::before {
+  content: "\e6ef";
+}
+
+.uicon-Collection::before {
+  content: "\e6f0";
+}
+
+.uicon-Notification::before {
+  content: "\e6f1";
+}
+
+.uicon-Account_info::before {
+  content: "\e6f2";
+}
+
+.uicon-Privacy::before {
+  content: "\e6f3";
+}
+
+.uicon-Home::before {
+  content: "\e6d1";
+}
+
+.uicon-Home_ac::before {
+  content: "\e6d2";
+}
+
+.uicon-Message_ac::before {
+  content: "\e6d3";
+}
+
+.uicon-Add_ac::before {
+  content: "\e6d4";
+}
+
+.uicon-Add::before {
+  content: "\e6d5";
+}
+
+.uicon-User::before {
+  content: "\e6d6";
+}
+
+.uicon-User_ac::before {
+  content: "\e6d7";
+}
+
+.uicon-Research_ac::before {
+  content: "\e6d8";
+}
+
+.uicon-Research::before {
+  content: "\e6d9";
+}
+
+.uicon-Message::before {
+  content: "\e6da";
+}
+
+.uicon-Back::before {
+  content: "\e6db";
+}
+
+.uicon-Follow::before {
+  content: "\e6dc";
+}
+
+.uicon-Plus::before {
+  content: "\e6dd";
+}
+
+.uicon-Check::before {
+  content: "\e6de";
+}
+
+.uicon-Share::before {
+  content: "\e6df";
+}
+
+.uicon-Info::before {
+  content: "\e6e0";
+}
+
+.uicon-Like::before {
+  content: "\e6e1";
+}
+
+.uicon-More::before {
+  content: "\e6e2";
+}
+
+.uicon-Play::before {
+  content: "\e6e3";
+}
+
+.uicon-Follow_min::before {
+  content: "\e6e4";
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "im",
+  "version": "1.0.0",
+  "description": "This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches, named and filled with lorem ipsum.",
+  "main": "main.js",
+  "dependencies": {
+    "marked": "^4.2.0",
+    "moment": "^2.29.4",
+    "stream-chat": "^7.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.023sh.cn/polygon/front_end/im.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
